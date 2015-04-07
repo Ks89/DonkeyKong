@@ -1,5 +1,5 @@
 # DonkeyKong
-
+ 
 A little game created by M. Gribaudo and P. Piazzolla of Politecnico di Milano for the course called "Computer Graphics" in 2012.
 
 **I modified this software to extends funcionalities, like movement, interactions and i created a sprite of Donkey Kong and another one for the princess.**
