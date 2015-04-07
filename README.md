@@ -1,13 +1,13 @@
 # DonkeyKong
 
 A little game created by Marco Gribaudo and Pietro Piazzolla of Politecnico di Milano for the course called "Computer Graphics" in 2012.
-I modified this software to extends funcionalities, like movement, interactions and i created a sprite of Donkey Kong and another one for the princess.
+**I modified this software to extends funcionalities, like movement, interactions and i created a sprite of Donkey Kong and another one for the princess.**
 
-This software requires a library created by Marco Gribaudo and Pietro Piazzolla that i can't release because explicitly forbidden by the authors.
+**This software requires a library** created by Marco Gribaudo and Pietro Piazzolla **that i can't release because explicitly forbidden by the authors.**
 
 I decided to realese this ".c" file, because i worked on this for many days and i implemented lots of features respect the original version distributed during the course in 2012.
 
-Obviously, you can't download this and compile.
+**Obviously, you can't download this and compile.**
 
 Sorry guys, but the authors wrote in the gaSim sources this: "To be used only for the Computer Graphics course". I can't release the gaSim library.
 
