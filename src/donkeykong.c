@@ -1,8 +1,23 @@
+/*Copyright 2013-2015 Politecnico di Milano, Stefano Cappa
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include <math.h>
 
+//i can't release this file gaSim.h
 #include "gaSim.h"
 
 
@@ -558,81 +573,6 @@ int main(int argc, char **argv) {
 								}
 							}
 		}
-
-
-//		switch(key) {
-//		case 27:	// with ESC, exits the game
-//			running = 0;
-//			break;
-//		case 'w': case 'W':
-//			if((qr-1>=0 && qr-1<=28) && (qc+1>=0 && qc+1<=39) &&
-//					((map[qr-1][qc]=='C' || map[qr-1][qc+1]=='C') || ((map[qr][qc]=='B' || map[qr][qc+1]=='B')) )) {
-//				qn = 0;
-//				spriteNumber = 2;
-//				eseguiMovimento = 1;
-//			} else {
-//				eseguiMovimento = 0;
-//			}
-//			break;
-//		case 's': case 'S':
-//			if((qr+3>=0 && qr+3<=28) && (qc+1>=0 && qc+1<=39) &&
-//					((map[qr+3][qc]=='C' || map[qr+3][qc+1]=='C') //se sotto alla sprite (cioe' a +3) ho una C (scala) posso scendere
-//							|| ((map[qr+2][qc]=='B' || map[qr+2][qc+1]=='B') && (map[qr+3][qc]=='C' || map[qr+3][qc+1]=='C') ) )) {
-//				qn = 1;
-//				spriteNumber = 2;
-//				eseguiMovimento = 1;
-//			} else {
-//				eseguiMovimento = 0;
-//			}
-//			break;
-//		case 'a': case 'A':
-//			if((qr>=0 && qr<=28) && (qc-2>=0 && qc-2<=39)) {
-//				qn = 2;
-//				spriteNumber = 4;
-//				eseguiMovimento = 1;
-//				verificaSeCade = 1;
-//			} else {
-//				eseguiMovimento = 0;
-//				verificaSeCade = 0;
-//			}
-//			break;
-//		case 'd': case 'D':
-//			if((qr>=0 && qr<=28) && (qc+2>=0 && qc+2<=39)) {
-//				qn = 3;
-//				spriteNumber = 1;
-//				eseguiMovimento = 1;
-//				verificaSeCade = 1;
-//			} else {
-//				eseguiMovimento = 0;
-//				verificaSeCade = 0;
-//			}
-//			break;
-//
-//		case (char)32 : //spazio per saltare
-//				if((spriteNumber==4 || spriteNumber==5) && (qr>=0 && qr<=28) && (qc-4>=0 && qc-4<=39)) {
-//					//salta a sinistra
-//					qn = 2;
-//					spriteNumber = 6;
-//					eseguiMovimento = 1;
-//					verificaSeCade = 1;
-//				} else {
-//					if((spriteNumber==0 || spriteNumber==1) && (qr>=0 && qr<=28) && (qc+4>=0 && qc+4<=39)) {
-//						//salta a destra
-//						qn = 3;
-//						spriteNumber = 3;
-//						eseguiMovimento = 1;
-//						verificaSeCade = 1;
-//					} else {
-//						verificaSeCade = 0;
-//						eseguiMovimento = 0;
-//					}
-//				}
-//		break;
-//		default :
-//			verificaSeCade = 0;
-//			eseguiMovimento = 0;
-//			break;
-//		}
 
 		if(eseguiMovimento==1) {
 			for(i = 0; i < 16; i++) {
