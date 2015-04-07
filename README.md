@@ -22,7 +22,7 @@ Sorry guys, but the authors wrote in the gaSim sources this: "To be used only fo
 2. Create a new Project (multimedia - glut - C)<br>
 ![alt tag](http://www.stefanocappa.it/publicfiles/Github_repositories_images/DonkeyKong/1-devcpp-new-project.png)<br>
 ![alt tag](http://www.stefanocappa.it/publicfiles/Github_repositories_images/DonkeyKong/5-devcpp.png)<br>
-2. Add the libraries from this repository [HERE]()
+2. Add the libraries from this repository [HERE](https://github.com/Ks89/DonkeyKong/tree/master/libraries)
 3. Click on "Project" menu -> "Project Option" -> "Parameter Tab".
 4. Select "add Library or object" option
 5. Select "libpthreadGC2.a" ([More info](http://stackoverflow.com/questions/2119779/how-to-use-pthread-library-in-devc
