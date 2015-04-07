@@ -14,7 +14,7 @@ Sorry guys, but the authors wrote in the gaSim sources this: "To be used only fo
 
 # Video
 
-[![ScreenShot]((http://www.stefanocappa.it/publicfiles/Github_repositories_images/DonkeyKong/7-youtube.png))](https://www.youtube.com/watch?v=3NGgnF8ltNo)
+[![ScreenShot](http://www.stefanocappa.it/publicfiles/Github_repositories_images/DonkeyKong/7-youtube.png)](https://www.youtube.com/watch?v=3NGgnF8ltNo)
 
 # Install with Dev-C++ (Windows XP)
 
