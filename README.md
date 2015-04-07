@@ -14,9 +14,9 @@ Sorry guys, but the authors wrote in the gaSim sources this: "To be used only fo
 
 # Video
 
-[![ScreenShot]((http://www.stefanocappa.it/publicfiles/Github_repositories_images/DonkeyKong/7-youtube))](https://www.youtube.com/watch?v=3NGgnF8ltNo)
+[![ScreenShot]((http://www.stefanocappa.it/publicfiles/Github_repositories_images/DonkeyKong/7-youtube.png))](https://www.youtube.com/watch?v=3NGgnF8ltNo)
 
-# Instruction Dev-C++ on Windows XP
+# Install with Dev-C++ (Windows XP)
 
 1. Install Dev-C++ 5.0 beta 9.2 (4.9.9.2) [HERE](http://sourceforge.net/projects/dev-cpp/files/Binaries/Dev-C%2B%2B%204.9.9.2/devcpp-4.9.9.2_setup.exe/download?use_mirror=switch)
 2. Create a new Project (multimedia - glut - C)<br>
