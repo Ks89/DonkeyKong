@@ -9,7 +9,7 @@ I decided to realese this ".c" file, because i worked on this for many days and 
 
 Obviously, you can't download this and compile.
 
-Sorry guys, but the authors wrote in the gaSim sources this: "To be used only for the "Computer Graphics course". I can't release the gaSim library.
+Sorry guys, but the authors wrote in the gaSim sources this: "To be used only for the Computer Graphics course". I can't release the gaSim library.
 
 
 ##License
